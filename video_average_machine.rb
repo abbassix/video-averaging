@@ -69,7 +69,7 @@ end
 average_machine = config[:average_machine]
 
 converter = "ffmpeg"	# either ffmpeg or avconv
-if options[:ffpmeg]
+if options[:ffmpeg]
   converter = "ffmpeg"
 elsif config[:converter]
   converter = config[:converter]
